@@ -404,7 +404,7 @@ function ImGui:ContainerClass(Frame: Frame, Class, Window)
 
 		local CheckBox = Prefabs.CheckBox:Clone()
 		local Tickbox: ImageButton = CheckBox.Tickbox
-		local Tick: ImageLabel = Tickbox.Tick
+		local Tick: ImageButton = Tickbox.Tick
 		local Label = CheckBox.Label
 		local ObjectClass = self:NewInstance(CheckBox, Config)
 
@@ -1399,7 +1399,7 @@ function ImGui:ApplyWindowSelectEffect(Window: GuiObject, TitleBar)
 			BackgroundColor3 = TitleBar.BackgroundColor3
 		},
 		Deselected = {
-			BackgroundColor3 = Color3.fromRGB(11, 94, 51)
+			BackgroundColor3 = Color3.fromRGB(11, 56, 42)
 		}
 	}
 
