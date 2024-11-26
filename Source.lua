@@ -29,7 +29,7 @@ function Luxt1.CreateWindow(libName, logoId)
     key1.Position = UDim2.new(0.0508064516, 0, 0.935261786, 0)
     key1.Size = UDim2.new(0, 76, 0, 22)
     key1.ZIndex = 2
-    key1.Font = Enum.Font.GothamSemibold
+    key1.Font = Enum.Font.SciFi
     key1.Text = "LeftAlt"
     key1.TextColor3 = Color3.fromRGB(153, 255, 238)
     key1.TextSize = 14.000
@@ -67,7 +67,7 @@ function Luxt1.CreateWindow(libName, logoId)
     keybindInfo1.Position = UDim2.new(0.585064113, 0, 0.935261846, 0)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
     keybindInfo1.ZIndex = 2
-    keybindInfo1.Font = Enum.Font.GothamSemibold
+    keybindInfo1.Font = Enum.Font.SciFi
     keybindInfo1.Text = "Close"
     keybindInfo1.TextColor3 = Color3.fromRGB(255, 255, 255)
     keybindInfo1.TextSize = 13.000
@@ -116,7 +116,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     MainFrame.Position = UDim2.new(0.048, 0,0.075, 0)
     MainFrame.Size = UDim2.new(0, 553, 0, 452)
 
@@ -156,7 +156,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.Position = UDim2.new(0.290000081, 0, 0.0299999975, 0)
     hubName.Size = UDim2.new(0, 110, 0, 16)
     hubName.ZIndex = 2
-    hubName.Font = Enum.Font.GothamSemibold
+    hubName.Font = Enum.Font.SciFi
     hubName.Text = libName
     hubName.TextColor3 = Color3.fromRGB(153, 255, 238)
     hubName.TextSize = 14.000
@@ -185,7 +185,7 @@ function Luxt1.CreateWindow(libName, logoId)
     usename.Position = UDim2.new(0.290000081, 0, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
     usename.ZIndex = 2
-    usename.Font = Enum.Font.GothamSemibold
+    usename.Font = Enum.Font.SciFi
     usename.Text = game.Players.LocalPlayer.Name
     usename.TextColor3 = Color3.fromRGB(103, 172, 161)
     usename.TextSize = 12.000
@@ -382,7 +382,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionName.BackgroundTransparency = 1.000
             sectionName.Position = UDim2.new(0.0236220472, 0, 0, 0)
             sectionName.Size = UDim2.new(0, 302, 0, 36)
-            sectionName.Font = Enum.Font.GothamSemibold
+            sectionName.Font = Enum.Font.SciFi
             sectionName.Text = sectionText
             sectionName.TextColor3 = Color3.fromRGB(153, 255, 238)
             sectionName.TextSize = 14.000
@@ -443,7 +443,7 @@ function Luxt1.CreateWindow(libName, logoId)
                 TextButton.ZIndex = 2
                 TextButton.AutoButtonColor = false
                 TextButton.Text = btnText
-                TextButton.Font = Enum.Font.GothamSemibold
+                TextButton.Font = Enum.Font.SciFi
                 TextButton.TextColor3 = Color3.fromRGB(180, 180, 180)
                 TextButton.TextSize = 14.000
 
@@ -549,7 +549,7 @@ function Luxt1.CreateWindow(libName, logoId)
                     toggleInfo.Position = UDim2.new(0.104109593, 0, 0, 0)
                     toggleInfo.Size = UDim2.new(0.254794508, 162, 1, 0)
                     toggleInfo.ZIndex = 2
-                    toggleInfo.Font = Enum.Font.GothamSemibold
+                    toggleInfo.Font = Enum.Font.SciFi
                     toggleInfo.Text = toggInfo
                     toggleInfo.TextColor3 = Color3.fromRGB(97, 97, 97)
                     toggleInfo.TextSize = 14.000
@@ -640,7 +640,7 @@ function Luxt1.CreateWindow(libName, logoId)
                         key.Position = UDim2.new(0.0250000004, 0, 0.194111288, 0)
                         key.Size = UDim2.new(0, 100, 0, 22)
                         key.ZIndex = 2
-                        key.Font = Enum.Font.GothamSemibold
+                        key.Font = Enum.Font.SciFi
                         key.Text = oldKey
                         key.TextColor3 = Color3.fromRGB(153, 255, 238)
                         key.TextSize = 14.000
@@ -655,7 +655,7 @@ function Luxt1.CreateWindow(libName, logoId)
                         keybindInfo.Position = UDim2.new(0.320547938, 0, 0.166666672, 0)
                         keybindInfo.Size = UDim2.new(0, 239, 0, 22)
                         keybindInfo.ZIndex = 2
-                        keybindInfo.Font = Enum.Font.GothamSemibold
+                        keybindInfo.Font = Enum.Font.SciFi
                         keybindInfo.Text = keyInfo
                         keybindInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
                         keybindInfo.TextSize = 13.000
@@ -744,7 +744,7 @@ function Luxt1.CreateWindow(libName, logoId)
                             textboxInfo.Position = UDim2.new(0.320547938, 0, 0.166666672, 0)
                             textboxInfo.Size = UDim2.new(0, 239, 0, 22)
                             textboxInfo.ZIndex = 2
-                            textboxInfo.Font = Enum.Font.GothamSemibold
+                            textboxInfo.Font = Enum.Font.SciFi
                             textboxInfo.Text = infbix
                             textboxInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
                             textboxInfo.TextSize = 13.000
@@ -757,7 +757,7 @@ function Luxt1.CreateWindow(libName, logoId)
                             TextBox.Size = UDim2.new(0, 100, 0, 22)
                             TextBox.ZIndex = 2
                             TextBox.ClearTextOnFocus = false
-                            TextBox.Font = Enum.Font.GothamSemibold
+                            TextBox.Font = Enum.Font.SciFi
                             TextBox.PlaceholderColor3 = Color3.fromRGB(24, 24, 24)
                             TextBox.Text = ""
                             TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -872,7 +872,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                 dragPrecent.Position = UDim2.new(0.727272749, 0, -2, 0)
                                 dragPrecent.Size = UDim2.new(0, 44, 0, 15)
                                 dragPrecent.ZIndex = 2
-                                dragPrecent.Font = Enum.Font.GothamSemibold
+                                dragPrecent.Font = Enum.Font.SciFi
                                 dragPrecent.Text = "0%"
                                 dragPrecent.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 dragPrecent.TextSize = 12.000
@@ -938,7 +938,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                 sliderInfo.Position = UDim2.new(0.466095895, 0, 0, 0)
                                 sliderInfo.Size = UDim2.new(0, 193, 0, 36)
                                 sliderInfo.ZIndex = 2
-                                sliderInfo.Font = Enum.Font.GothamSemibold
+                                sliderInfo.Font = Enum.Font.SciFi
                                 sliderInfo.Text = slidInfo
                                 sliderInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 sliderInfo.TextSize = 14.000
@@ -1030,7 +1030,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                 TextLabel.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
                                 TextLabel.Size = UDim2.new(0, 365, 0, 36)
                                 TextLabel.ZIndex = 2
-                                TextLabel.Font = Enum.Font.GothamSemibold
+                                TextLabel.Font = Enum.Font.SciFi
                                 TextLabel.Text = labelInfo
                                 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 TextLabel.TextSize = 14.000
@@ -1157,7 +1157,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                     dropdownItem1.Position = UDim2.new(0.0250000004, 0, 0.0833333358, 0)
                                     dropdownItem1.Size = UDim2.new(0, 293, 0, 30)
                                     dropdownItem1.ZIndex = 2
-                                    dropdownItem1.Font = Enum.Font.GothamSemibold
+                                    dropdownItem1.Font = Enum.Font.SciFi
                                     dropdownItem1.Text = dropInfo
                                     dropdownItem1.TextColor3 = Color3.fromRGB(153, 255, 238)
                                     dropdownItem1.TextSize = 14.000
@@ -1197,7 +1197,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                         optionBtn1.Size = UDim2.new(0, 339, 0, 34)
                                         optionBtn1.ZIndex = 2
                                         optionBtn1.AutoButtonColor = false
-                                        optionBtn1.Font = Enum.Font.GothamSemibold
+                                        optionBtn1.Font = Enum.Font.SciFi
                                         optionBtn1.Text = "  "..v
                                         optionBtn1.TextColor3 = Color3.fromRGB(120, 200, 187)
                                         optionBtn1.TextSize = 14.000
@@ -1261,3 +1261,42 @@ function Luxt1.CreateWindow(libName, logoId)
 end
 
 return Luxt1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
