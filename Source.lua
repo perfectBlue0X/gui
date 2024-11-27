@@ -257,7 +257,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabBtn.Position = UDim2.new(0.245534033, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
         tabBtn.ZIndex = 2
-        tabBtn.Font = Enum.Font.Gotham
+        tabBtn.Font = Enum.Font.SciFi
         tabBtn.Text = tabText
         tabBtn.TextColor3 = Color3.fromRGB(153, 255, 238)
         tabBtn.TextSize = 14.000
@@ -1062,7 +1062,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                 TextLabel.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
                                 TextLabel.Size = UDim2.new(0, 365, 0, 36)
                                 TextLabel.ZIndex = 2
-                                TextLabel.Font = Enum.Font.Gotham
+                                TextLabel.Font = Enum.Font.SciFi
                                 TextLabel.Text = "  "..creditWho
                                 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 TextLabel.TextSize = 14.000
