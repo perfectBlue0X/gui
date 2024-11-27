@@ -133,9 +133,11 @@ function Luxt1.CreateWindow(libName, logoId)
     sideCover.Name = "sideCover"
     sideCover.Parent = sideHeading
     sideCover.BackgroundColor3 = Color3.fromRGB(26, 26, 26)  -- #1A1A1A color
+    sideCover.BackgroundTransparency = 0.7  -- 30% transparent (1 - 0.3 = 0.7)
     sideCover.BorderSizePixel = 0
     sideCover.Position = UDim2.new(0.909677446, 0, 0, 0)
-    sideCover.Size = UDim2.new(0, 4, 0, 452)  -- Thin horizontally
+    sideCover.Size = UDim2.new(0, 2, 0, 452)  -- Made thinner by reducing width to 2
+    
     
 
     hubLogo.Name = "hubLogo"
