@@ -203,8 +203,8 @@ function Luxt1.CreateWindow(libName, logoId)
     wave.Parent = MainFrame
     wave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     wave.BackgroundTransparency = 1.000
-    wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
-    wave.Size = UDim2.new(1.5, 0, 1, 0)  -- Increased width to 150% and height to 100%
+    wave.Position = UDim2.new(0, 0, 0, 0)
+    wave.Size = UDim2.new(1.2, 0, 0.8, 0)  -- Slightly smaller width (120%) and height (80%)
     wave.Image = "http://www.roblox.com/asset/?id=112579771031225"
     wave.ImageColor3 = Color3.fromRGB(181, 249, 255)
     wave.ImageTransparency = 0.300
