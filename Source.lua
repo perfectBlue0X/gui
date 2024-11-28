@@ -387,7 +387,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionName.Size = UDim2.new(0, 302, 0, 36)
             sectionName.Font = Enum.Font.SciFi
             sectionName.Text = sectionText
-            sectionName.TextColor3 = Color3.fromRGB(153, 255, 238)
+            sectionName.TextColor3 = Color3.fromRGB(255, 255, 255)
             sectionName.TextSize = 14.000
             sectionName.TextXAlignment = Enum.TextXAlignment.Left
 
