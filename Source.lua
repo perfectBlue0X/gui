@@ -31,7 +31,7 @@ function Luxt1.CreateWindow(libName, logoId)
     key1.ZIndex = 2
     key1.Font = Enum.Font.SciFi
     key1.Text = "LeftAlt"
-    key1.TextColor3 = Color3.fromRGB(153, 255, 238)
+    key1.TextColor3 = Color3.fromRGB(255, 255, 255)
     key1.TextSize = 14.000
 
     local oldKey = Enum.KeyCode.LeftAlt.Name
@@ -142,7 +142,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
@@ -161,7 +161,7 @@ function Luxt1.CreateWindow(libName, logoId)
     hubName.ZIndex = 2
     hubName.Font = Enum.Font.SciFi
     hubName.Text = libName
-    hubName.TextColor3 = Color3.fromRGB(153, 255, 238)
+    hubName.TextColor3 = Color3.fromRGB(255, 255, 255)
     hubName.TextSize = 14.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
@@ -274,7 +274,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabLogo.Size = UDim2.new(0, 25, 0, 25)
         tabLogo.ZIndex = 2
         tabLogo.Image = "rbxassetid://"..tabId
-        tabLogo.ImageColor3 = Color3.fromRGB(153, 255, 238)
+        tabLogo.ImageColor3 = Color3.fromRGB(255, 255, 255)
         --
 
         local newPage = Instance.new("ScrollingFrame")
@@ -332,10 +332,10 @@ function Luxt1.CreateWindow(libName, logoId)
                 end
             end
             game.TweenService:Create(tabLogo, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {
-                ImageColor3 = Color3.fromRGB(153, 255, 238)
+                ImageColor3 = Color3.fromRGB(255, 255, 255)
             }):Play()
             game.TweenService:Create(tabBtn, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In), {
-                TextColor3 = Color3.fromRGB(153, 255, 238)
+                TextColor3 = Color3.fromRGB(255, 255, 255)
             }):Play()
         end)
 
@@ -398,7 +398,7 @@ function Luxt1.CreateWindow(libName, logoId)
             sectionExpannd.Size = UDim2.new(0, 25, 0, 25)
             sectionExpannd.ZIndex = 2
             sectionExpannd.Image = "rbxassetid://3926305904"
-            sectionExpannd.ImageColor3 = Color3.fromRGB(153, 255, 238)
+            sectionExpannd.ImageColor3 = Color3.fromRGB(255, 255, 255)
             sectionExpannd.ImageRectOffset = Vector2.new(564, 284)
             sectionExpannd.ImageRectSize = Vector2.new(36, 36)
             sectionExpannd.MouseButton1Click:Connect(function()
@@ -582,8 +582,8 @@ function Luxt1.CreateWindow(libName, logoId)
                                 on = not on
                                  callback(on) 
                                 if on then
-                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 255, 238)
-                                    checkBtn.ImageColor3 = Color3.fromRGB(153, 255, 238)
+                                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(255, 255, 255)
+                                    checkBtn.ImageColor3 = Color3.fromRGB(255, 255, 255)
                                     checkBtn.ImageRectOffset = Vector2.new(4, 836)
                                     checkBtn.ImageRectSize = Vector2.new(48,48)
                                 else
@@ -645,7 +645,7 @@ function Luxt1.CreateWindow(libName, logoId)
                         key.ZIndex = 2
                         key.Font = Enum.Font.SciFi
                         key.Text = oldKey
-                        key.TextColor3 = Color3.fromRGB(153, 255, 238)
+                        key.TextColor3 = Color3.fromRGB(255, 255, 255)
                         key.TextSize = 14.000
 
                         UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -754,7 +754,7 @@ function Luxt1.CreateWindow(libName, logoId)
                             textboxInfo.TextXAlignment = Enum.TextXAlignment.Left
 
                             TextBox.Parent = textboxFrame
-                            TextBox.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+                            TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                             TextBox.ClipsDescendants = true
                             TextBox.Position = UDim2.new(0.0250000004, 0, 0.194000006, 0)
                             TextBox.Size = UDim2.new(0, 100, 0, 22)
@@ -861,7 +861,7 @@ function Luxt1.CreateWindow(libName, logoId)
 
                                 dragSlider.Name = "dragSlider"
                                 dragSlider.Parent = sliderbtn
-                                dragSlider.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+                                dragSlider.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                                 dragSlider.Size = UDim2.new(0, 0, 0, 6)
                                 dragSlider.ZIndex = 2
 
@@ -1126,7 +1126,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                     expand_more.Size = UDim2.new(0, 25, 0, 25)
                                     expand_more.ZIndex = 2
                                     expand_more.Image = "rbxassetid://3926305904"
-                                    expand_more.ImageColor3 = Color3.fromRGB(153, 255, 238)
+                                    expand_more.ImageColor3 = Color3.fromRGB(255, 255, 255)
                                     expand_more.ImageRectOffset = Vector2.new(564, 284)
                                     expand_more.ImageRectSize = Vector2.new(36, 36)
                                     expand_more.MouseButton1Click:Connect(function()
@@ -1162,7 +1162,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                     dropdownItem1.ZIndex = 2
                                     dropdownItem1.Font = Enum.Font.SciFi
                                     dropdownItem1.Text = dropInfo
-                                    dropdownItem1.TextColor3 = Color3.fromRGB(153, 255, 238)
+                                    dropdownItem1.TextColor3 = Color3.fromRGB(255, 255, 255)
                                     dropdownItem1.TextSize = 14.000
                                     dropdownItem1.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1202,7 +1202,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                         optionBtn1.AutoButtonColor = false
                                         optionBtn1.Font = Enum.Font.SciFi
                                         optionBtn1.Text = "  "..v
-                                        optionBtn1.TextColor3 = Color3.fromRGB(120, 200, 187)
+                                        optionBtn1.TextColor3 = Color3.fromRGB(255, 255, 255)
                                         optionBtn1.TextSize = 14.000
                                         optionBtn1.TextXAlignment = Enum.TextXAlignment.Left
     
@@ -1250,7 +1250,7 @@ function Luxt1.CreateWindow(libName, logoId)
                                         optionBtn1.MouseLeave:Connect(function()
                                             game.TweenService:Create(optionBtn1, TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),{
                                                 BackgroundColor3 = Color3.fromRGB(21, 21, 21),
-                                                TextColor3 = Color3.fromRGB(120, 200, 187)
+                                                TextColor3 = Color3.fromRGB(153, 153, 153)
                                             }):Play()
                                         end)
                                 end
