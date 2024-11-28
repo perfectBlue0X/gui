@@ -266,7 +266,7 @@ function Luxt1.CreateWindow(libName, logoId)
         tabBtn.TextXAlignment = Enum.TextXAlignment.Left
 
         tabLogo.Name = "tabLogo"
-        tabLogo.Position = UDim2.new(-0.007, 0, 0.067, 5)
+        tabLogo.Position = UDim2.new(-0.007, 0, 0.067, 3)
         tabLogo.Parent = tabBtnFrame
         tabLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
         tabLogo.BackgroundTransparency = 1.000
