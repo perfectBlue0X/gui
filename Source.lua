@@ -254,14 +254,14 @@ function Luxt1.CreateWindow(libName, logoId)
 
         tabBtn.Name = "tabBtn"
         tabBtn.Parent = tabBtnFrame
-        tabBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+        tabBtn.BackgroundColor3 = Color3.fromRGB(166, 248, 255)
         tabBtn.BackgroundTransparency = 1.000
         tabBtn.Position = UDim2.new(0.245534033, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
         tabBtn.ZIndex = 2
         tabBtn.Font = Enum.Font.SciFi
         tabBtn.Text = tabText
-        tabBtn.TextColor3 = Color3.fromRGB(153, 255, 238)
+        tabBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
         tabBtn.TextSize = 14.000
         tabBtn.TextXAlignment = Enum.TextXAlignment.Left
 
